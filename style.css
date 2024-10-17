@@ -1,11 +1,21 @@
 body{
     background-color: white;
 }
+#heart{
+    position: absolute;
+    left: 35rem;
+    top: 40px;
+    
+    
+    
+  
+}
 #square{
     display: inline-flex;
-    width: 301px;
-    height: 300px;
+    width: 305px;
+    height: 305px;
     background-color: red;
+    border-top-left-radius: 20px;
     margin-top: 150px;
     margin-left: 1.5rem;
     transform: rotate(42deg);
@@ -16,10 +26,10 @@ body{
     width: 300px;
     height: 300px;
     position: absolute;
-    left: 425px;
-    top: 50px;
+    left: 120px;
+    top: 55px;
     border-radius: 50%;
-    background-color: red
+    background-color: red;
 
 }
 #circle2{
@@ -27,16 +37,16 @@ body{
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 45px;
-    right: 418px;
+    top: 60px;
+    right: 110px;
     border-radius: 50%;
-    background-color: red
+    background-color: red;
 
 }
 #broken_pic{
     position: absolute;
     top: 74px;
     border-top-right-radius: 560px;
-    left: 598px;
+    left: 80px;
     
 }
